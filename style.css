@@ -1,0 +1,108 @@
+body {
+    background-color: #F0F0F0;
+}
+
+.categorias-index {
+    border: 1px solid gray;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+    flex: auto;
+}
+
+.categorias-index:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.em-alta-titulo {
+    padding-top: 8px;
+    padding-bottom: 1px;
+}
+
+.novo-etiqueta {
+    background-color: #0D6EFD;
+    padding: 6px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 50%;
+    font-size: smaller;
+    text-align: center;
+}
+
+.link-card-em-alta {
+    text-decoration: none;
+    color: black;
+}
+
+.index-ante-footer {
+    width: 100%; 
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    text-align: center;
+    background: #363839;
+}
+
+footer {
+    background: #0D6EFD;
+    padding: 20px 23px;
+    color: #fff;
+}
+
+footer span a {
+    color: #111;
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
+
+/* produtos */ 
+
+.p-pagina-actual {
+    background-color: white;
+    padding: 10px;
+}
+
+.p-pagina-actual a {
+    text-decoration: none;
+    color: #0D6EFD;
+}
+
+.h5-cat {
+    padding: 10px;
+}
+
+.h5-titulo-cat {
+    padding: 10px;
+    background-color: #0D6EFD;
+    color: white;
+}
+
+.cat-men-item {
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cat-men-item:hover {
+    background-color: #EEEEEE;
+}
+
+.cat-men-item .badge {
+    float: right;
+}
+
+.pag-div {
+    margin-top: 25px;
+    background-color: white;
+    padding: 10px;
+}
+
+.card-title {
+    font-size: small;
+}
