@@ -2,29 +2,12 @@ body {
     background-color: #F0F0F0;
 }
 
-.categorias-index {
-    border: 1px solid gray;
-    margin-left: 10px;
-    margin-bottom: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
-    color: white;
-    text-decoration: none;
-    flex: auto;
-}
-
-.categorias-index:hover {
-    text-decoration: none;
-    color: white;
-}
-
-.em-alta-titulo {
-    padding-top: 8px;
-    padding-bottom: 1px;
+.navbar {
+    background-color: crimson;
 }
 
 .novo-etiqueta {
-    background-color: #0D6EFD;
+    background-color: crimson;
     padding: 6px;
     color: white;
     border-radius: 10px;
@@ -33,23 +16,11 @@ body {
     text-align: center;
 }
 
-.link-card-em-alta {
-    text-decoration: none;
-    color: black;
-}
-
-.index-ante-footer {
-    width: 100%; 
-    padding-top: 50px; 
-    padding-bottom: 50px;
-    text-align: center;
-    background: #363839;
-}
-
 footer {
-    background: #0D6EFD;
+    background: crimson;
     padding: 20px 23px;
     color: #fff;
+    text-align: center;
 }
 
 footer span a {
@@ -70,7 +41,49 @@ footer span a:hover {
 
 .p-pagina-actual a {
     text-decoration: none;
-    color: #0D6EFD;
+    color: crimson;
+}
+
+.card-roupa {
+    width: 25%;
+}
+
+.card-conteudo {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    outline: 1px solid rgba(255, 255, 255, .5);
+    outline-offset: -8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
+    position: relative;
+    overflow: hidden;
+}
+
+.card-img {
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .75s;
+}
+
+.card-conteudo:hover .card-img {
+    transform: scale(1.10);
+}
+
+.link-card-conteudo {
+    text-decoration: none;
+    color: crimson;
+}
+
+.link-card-conteudo:hover {
+    text-decoration: none;
+    color: rgb(179, 50, 78);
+}
+
+.b-num-modelos {
+    background-color: crimson;
 }
 
 .h5-cat {
@@ -79,7 +92,7 @@ footer span a:hover {
 
 .h5-titulo-cat {
     padding: 10px;
-    background-color: #0D6EFD;
+    background-color: crimson;
     color: white;
 }
 
@@ -105,4 +118,254 @@ footer span a:hover {
 
 .card-title {
     font-size: small;
+}
+
+.card-body {
+    text-align: center;
+}
+
+@media (max-width: 1400px) {
+    
+    .card-roupa {
+        width: 25%;
+    }
+
+    .card-conteudo:hover .card-img {
+        transform: scale(0.75);
+    }
+   
+}
+
+@media (max-width: 1200px) {
+    
+    .card-roupa {
+        width: 25%;
+    }
+
+    .card-conteudo:hover .card-img {
+        transform: scale(0.75);
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 1000px) {
+    
+    .card-roupa {
+        width: 50%;
+    }
+
+    .card-conteudo:hover .card-img {
+        transform: scale(0.75);
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 900px) {
+    
+    .card-roupa {
+        width: 50%;
+    }
+
+    .card-conteudo:hover .card-img {
+        transform: scale(0.75);
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 800px) {
+    
+    .card-roupa {
+        width: 50%;
+    }
+
+    .card-conteudo:hover .card-img {
+        transform: scale(0.75);
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 700px) {
+    
+    .card-roupa {
+        width: 50%;
+    }
+
+    .card-conteudo:hover .card-img {
+        transform: scale(0.75);
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 600px) {
+    
+    .card-roupa {
+        width: 100%;
+    }
+
+    .card-conteudo:hover .card-img {
+        transform: scale(0.75);
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 500px) {
+    
+    .card-roupa {
+        width: 100%;
+    }
+
+    .card-conteudo:hover .card-img {
+        transform: scale(0.75);
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+
+@media (max-width: 400px) {
+    
+    .card-roupa {
+        width: 100%;
+    }
+
+    .card-conteudo:hover .card-img {
+        transform: scale(0.75);
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 300px) {
+    
+    .card-roupa {
+        width: 100%;
+    }
+
+    .card-conteudo:hover .card-img {
+        transform: scale(0.75);
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 200px) {
+    
+    .card-roupa {
+        width: 100%;
+    }
+
+    .card-conteudo:hover .card-img {
+        transform: scale(0.75);
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 100px) {
+    
+    .card-roupa {
+        width: 100%;
+    }
+
+    .card-conteudo:hover .card-img {
+        transform: scale(0.75);
+    }
+
+    .menu-lateral {
+        width: 100%;
+    }
+
+    .page-lateral-content {
+        width: 100%;
+    }
+
+    
+
+    
 }
