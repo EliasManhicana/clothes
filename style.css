@@ -48,6 +48,62 @@ footer span a:hover {
     width: 25%;
 }
 
+.card-roupa-detalhe {
+    width: 50%;
+    border-radius: 10px;
+    outline: 1px solid rgba(255, 255, 255, .5);
+    outline-offset: -8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card-img-detalhe {
+    width: 50%;
+}
+
+.img-detalhe {
+    width: 100%;
+    border-radius: 10px;
+    outline: 1px solid rgba(255, 255, 255, .5);
+    outline-offset: -8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
+    position: relative;
+    overflow: hidden;
+}
+
+.tittle-detalhe-product {
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.price-detalhe-product {
+    font-size: 35px;
+    font-weight: 700;
+    color: crimson;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.encomendarbtn-detalhe-product {
+    width: 100%;
+    background-color: crimson;
+    border-color: crimson;
+}
+
+.encomendarbtn-detalhe-product:hover {
+    background-color: gray;
+    border-color: white;
+}
+
 .card-conteudo {
     width: 100%;
     height: 100%;
@@ -69,7 +125,7 @@ footer span a:hover {
 }
 
 .card-conteudo:hover .card-img {
-    transform: scale(1.10);
+    transform: scale(1.50);
 }
 
 .link-card-conteudo {
@@ -129,10 +185,6 @@ footer span a:hover {
     .card-roupa {
         width: 25%;
     }
-
-    .card-conteudo:hover .card-img {
-        transform: scale(0.75);
-    }
    
 }
 
@@ -140,10 +192,6 @@ footer span a:hover {
     
     .card-roupa {
         width: 25%;
-    }
-
-    .card-conteudo:hover .card-img {
-        transform: scale(0.75);
     }
 
     .menu-lateral {
@@ -163,15 +211,22 @@ footer span a:hover {
         width: 50%;
     }
 
-    .card-conteudo:hover .card-img {
-        transform: scale(0.75);
-    }
-
     .menu-lateral {
         width: 100%;
     }
 
     .page-lateral-content {
+        width: 100%;
+    }
+
+    .card-roupa-detalhe {
+        width: 95%;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+    
+    .card-img-detalhe {
         width: 100%;
     }
 
@@ -182,10 +237,6 @@ footer span a:hover {
     
     .card-roupa {
         width: 50%;
-    }
-
-    .card-conteudo:hover .card-img {
-        transform: scale(0.75);
     }
 
     .menu-lateral {
@@ -205,10 +256,6 @@ footer span a:hover {
         width: 50%;
     }
 
-    .card-conteudo:hover .card-img {
-        transform: scale(0.75);
-    }
-
     .menu-lateral {
         width: 100%;
     }
@@ -224,10 +271,6 @@ footer span a:hover {
     
     .card-roupa {
         width: 50%;
-    }
-
-    .card-conteudo:hover .card-img {
-        transform: scale(0.75);
     }
 
     .menu-lateral {
@@ -247,10 +290,6 @@ footer span a:hover {
         width: 100%;
     }
 
-    .card-conteudo:hover .card-img {
-        transform: scale(0.75);
-    }
-
     .menu-lateral {
         width: 100%;
     }
@@ -266,10 +305,6 @@ footer span a:hover {
     
     .card-roupa {
         width: 100%;
-    }
-
-    .card-conteudo:hover .card-img {
-        transform: scale(0.75);
     }
 
     .menu-lateral {
@@ -290,10 +325,6 @@ footer span a:hover {
         width: 100%;
     }
 
-    .card-conteudo:hover .card-img {
-        transform: scale(0.75);
-    }
-
     .menu-lateral {
         width: 100%;
     }
@@ -309,10 +340,6 @@ footer span a:hover {
     
     .card-roupa {
         width: 100%;
-    }
-
-    .card-conteudo:hover .card-img {
-        transform: scale(0.75);
     }
 
     .menu-lateral {
@@ -332,10 +359,6 @@ footer span a:hover {
         width: 100%;
     }
 
-    .card-conteudo:hover .card-img {
-        transform: scale(0.75);
-    }
-
     .menu-lateral {
         width: 100%;
     }
@@ -351,10 +374,6 @@ footer span a:hover {
     
     .card-roupa {
         width: 100%;
-    }
-
-    .card-conteudo:hover .card-img {
-        transform: scale(0.75);
     }
 
     .menu-lateral {
